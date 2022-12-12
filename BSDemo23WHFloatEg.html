@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Display</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/MyStyles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Example 1 without clearfix</h1>
+        <div class="blue w-25 float-left">
+            <h1>Div a</h1>
+        </div>
+        <div class="green w-25 float-right">
+            <h1>Div b</h1>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container clearfix">
+        <h1>Example 2 with clearfix</h1>
+        <div class="blue w-25 float-left">
+            <h1>Div a</h1>
+        </div>
+        <div class="green w-25 float-right">
+            <h1>Div b</h1>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container clearfix">
+        <h1>Example 3 float with Break Point</h1>
+        <div class="blue w-25 float-md-left">
+            <h1>Div a</h1>
+        </div>
+        <div class="green w-25 float-md-right">
+            <h1>Div b</h1>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container clearfix">
+        <h1>Example 4 float with Break Point (swap div b/w large and medium screen)</h1>
+        <div class="blue w-25 float-lg-left float-sm-right">
+            <h1>Div a</h1>
+        </div>
+        <div class="green w-25 float-lg-right float-sm-left">
+            <h1>Div b</h1>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container clearfix">
+        <h1>Example 5 float with Break Point (no float in large and above)</h1>
+        <div class="blue w-25 float-lg-none float-sm-left">
+            <h1>Div a</h1>
+        </div>
+        <div class="green w-25 float-lg-none float-sm-right">
+            <h1>Div b</h1>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container clearfix" style="height:300px;">
+        <h1>Example 6 Height</h1>
+        <div class="blue w-25 float-lg-none float-sm-left h-25">
+            <h1>Div a</h1>
+        </div>
+        <div class="green w-25 float-lg-none float-sm-right h-50">
+            <h1>Div b</h1>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container clearfix">
+        <h1>Example 7 View Port W and H </h1>
+        <div class="blue float-sm-left vw-100">
+            <h1>Div a</h1>
+        </div>
+        <div class="green float-sm-right vh-100 w-25">
+            <h1>Div b</h1>
+        </div>
+    </div>
+</body>
+
+</html>

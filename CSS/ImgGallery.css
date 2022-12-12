@@ -1,0 +1,34 @@
+* {
+    border: 0px;
+    margin: 0x;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.frame {
+    background-color: dimgrey;
+}
+
+img {
+    height: 150px;
+    background-color: lightgray;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.8);
+}
+
+div .row {
+    padding-bottom: 15px;
+}

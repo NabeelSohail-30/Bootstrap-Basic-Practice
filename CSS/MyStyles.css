@@ -1,0 +1,66 @@
+.container,
+.container-fluid {
+    background-color: antiquewhite;
+    border: 2px solid grey;
+}
+
+.row {
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.pink {
+    background-color: palevioletred;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.inline_div {
+    display: inline-block;
+}
+
+.blue {
+    background-color: deepskyblue;
+}
+
+.red {
+    background-color: indianred;
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+.border_yellow {
+    border: 2px solid yellow;
+}
+
+.row-height {
+    height: 600px;
+    border: 2px solid grey;
+}
+
+.display_class {
+    display: inline-block;
+    width: 300px;
+}
+
+
+.width_height {
+    width: 800px;
+    height: 400px;
+}
+
+.w-25 {
+    margin: auto;
+}
